@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": false
+  },
+  "include": [
+    "src/main/**/*",
+    "src/preload/**/*",
+    "src/database/**/*",
+    "src/services/**/*",
+    "src/authentication/**/*",
+    "src/synchronization/**/*",
+    "src/utilities/**/*"
+  ],
+  "exclude": [
+    "src/renderer/**/*"
+  ]
+}
